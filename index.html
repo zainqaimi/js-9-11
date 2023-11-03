@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>zain ul Abdin (116841)</title>
+  </head>
+  <body>
+    <script>
+      var city = prompt("Enter YOur City Name:");
+      if (city === "karachi") {
+        alert("Welcome to city of lights");
+      } else alert("Welcome TO" + " " + city);
+      var gender = prompt("Enter Your Gender:");
+      if ((gender = "male")) {
+        alert("Hi Sir");
+      } else if ((gender = "female")) {
+        alert("Hello MaM");
+      } else alert("Only enter Male or Female");
+      var trafic = prompt(
+        "Enter The Trafic Light" +
+          "</br>" +
+          "Choose The One red,yellow or green"
+      );
+      if (trafic === "red") {
+        alert("Must Stop");
+      } else if (trafic === "yellow") {
+        alert("Ready to move");
+      } else if (trafic === "green") {
+        alert("Move now");
+      } else alert("Only enter red,yellow or green");
+      var fuel = prompt("Enter Fuel Miter Position");
+      if (fuel === "0.25") {
+        alert("Please refill the fuel in your car");
+      } else "Drive safely!";
+      var a = 4;
+      if (++a === 5) {
+        alert("given condition for variable a is true");
+      }
+      var b = 82;
+      if (b++ === 83) {
+        alert("given condition for variable b is true");
+      }
+      var c = 12;
+      if (c++ === 13) {
+        alert("condition 1 is true");
+      }
+      if (c === 13) {
+        alert("condition 2 is true");
+      }
+      if (++c < 14) {
+        alert("condition 3 is true");
+      }
+      if (c === 14) {
+        alert("condition 4 is true");
+      }
+      var materialCost = 20000;
+      var laborCost = 2000;
+      var totalCost = materialCost + laborCost;
+      if (totalCost === laborCost + materialCost) {
+        alert("The cost equals");
+      }
+      if (true) {
+        alert("True");
+      }
+      if (false) {
+        alert("False");
+      }
+      if ("car" < "cat") {
+        alert("car is smaller than cat");
+      }
+      var english = prompt("Enter Your English Number:");
+      var math = prompt("Enter Your Math Number:");
+      var urdu = prompt("Enter Your Urdu Number:");
+      var eng = 1 * english;
+      var mat = 1 * math;
+      var urd = 1 * urdu;
+      var obtained = eng + mat + urd;
+      var per = (obtained / 300) * 100;
+      document.write(
+        "<h1>Mark's Sheet</h1>" +
+          "</br>" +
+          "<h2>Total Mark's = 300" +
+          "</br>" +
+          "</br>" +
+          "Obitained Mark's: =" +
+          obtained +
+          "</br>" +
+          "</br>" +
+          "Percentaje:" +
+          " " +
+          per +
+          "</br>" +
+          "</br>"
+      );
+      if (per >= 80) {
+        document.write(
+          "Grade:" +
+            " " +
+            "A+1" +
+            "</br>" +
+            "</br>" +
+            "Remark's:" +
+            " " +
+            "Excellent"
+        );
+      } else if (per >= 70) {
+        document.write(
+          "Grade:" + " " + "A" + "</br>" + "</br>" + "Remark's:" + " " + "Good"
+        );
+      } else if (per >= 60) {
+        document.write(
+          "Grade:" +
+            " " +
+            "B" +
+            "</br>" +
+            "</br>" +
+            "Remark's:" +
+            " " +
+            "You Need To Improve"
+        );
+      } else document.write("Remark's:" + " " + "You Are Fail");
+      var hide = 7;
+      var guess = prompt("Guess The Hide Number in 1 To 10:");
+      if (guess == hide) {
+        alert("Bingo! Correct Answer");
+      } else if (guess > 5) {
+        alert("Close enough to the correct answer");
+      } else alert("Try Again!");
+      var a = prompt(
+        "Enter The Any Number for cheack\nThis Is Divisible By 3 Or Not"
+      );
+      if (a % 3 === 0) {
+        alert("Yes This Is Divisible By 3");
+      } else {
+        alert("Not To Divisible");
+      }
+      var b = prompt("Enter Any Number For Cheack Odd or Even");
+      if (b % 2 == 0) {
+        alert("Even Number");
+      } else {
+        alert("Odd Number");
+      }
+    </script>
+  </body>
+</html>
